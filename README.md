@@ -11,6 +11,6 @@ VLC Android比较难得的是提供了Android原生aar包，项目里可以直�
 
 我这里编译好了一份 ARMv7 的aar 包，可以在这里下载。
 
-项目源码已托管在Github：https://github.com/mymbrooks/VLCAndroidDemo
+项目源码已托管在Github：https://github.com/What121/VLCVideoplayer
 
 # 详细教程：https://www.cnblogs.com/brooks-dotnet/p/5406110.html
