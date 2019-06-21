@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         //远程
         Button btnRemoteVideo = (Button) findViewById(R.id.btnRemoteVideo);
-        etRemoteVideo.setText("rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov");
+        etRemoteVideo.setText("rtsp://192.168.32.3/readsense");
         btnRemoteVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                Intent vlc=new Intent(mContext,VLCPlayerActivity.class);
+                Intent vlc=new Intent(mContext,VLCViewActivity.class);
                 vlc.putExtra("VideoType", "Remote");
                 vlc.putExtra("VideoUrl", etRemoteVideo.getText().toString());
                 startActivity(vlc);
